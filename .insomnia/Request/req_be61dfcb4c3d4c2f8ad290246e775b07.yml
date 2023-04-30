@@ -1,0 +1,26 @@
+_id: req_be61dfcb4c3d4c2f8ad290246e775b07
+type: Request
+parentId: wrk_dd624a68a77744289ebc987986b8cfb5
+modified: 1682873562938
+created: 1682873337032
+url: localhost:8080/books?get=all
+name: getAllBooks
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-ndjson
+    id: pair_55860ccc695a497b9f37b06fb96f06af
+authentication: {}
+metaSortKey: -1682617185364.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

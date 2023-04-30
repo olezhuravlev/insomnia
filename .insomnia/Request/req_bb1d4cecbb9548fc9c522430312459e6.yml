@@ -1,0 +1,29 @@
+_id: req_bb1d4cecbb9548fc9c522430312459e6
+type: Request
+parentId: wrk_dd624a68a77744289ebc987986b8cfb5
+modified: 1682873236600
+created: 1682873220181
+url: localhost:8080/genres
+name: saveGenre
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+    	"id": "g1",
+    	"name": "genre1"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1682617185383
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

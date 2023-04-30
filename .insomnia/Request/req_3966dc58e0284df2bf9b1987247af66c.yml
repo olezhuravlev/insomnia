@@ -1,0 +1,29 @@
+_id: req_3966dc58e0284df2bf9b1987247af66c
+type: Request
+parentId: wrk_dd624a68a77744289ebc987986b8cfb5
+modified: 1682872568394
+created: 1682617185533
+url: localhost:8080/authors
+name: saveAuthor
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+    	"id": "a1",
+    	"name": "author1"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1682617185533
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
