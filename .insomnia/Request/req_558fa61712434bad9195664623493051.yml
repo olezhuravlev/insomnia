@@ -1,7 +1,7 @@
 _id: req_558fa61712434bad9195664623493051
 type: Request
 parentId: wrk_dd624a68a77744289ebc987986b8cfb5
-modified: 1682918374016
+modified: 1682963626703
 created: 1682873327562
 url: localhost:8080/books
 name: saveBook
@@ -13,14 +13,8 @@ body:
     {
     	"id": "b1",
     	"title": "Book1",
-    	"author": {
-    		"id": "a1",
-    		"name": "author1"
-    	},
-    	"genre": {
-    		"id": "g1",
-    		"name": "genre1"
-    	}
+    	"authorId": "a1",
+    	"genreId": "g1"
     }
 parameters: []
 headers:
