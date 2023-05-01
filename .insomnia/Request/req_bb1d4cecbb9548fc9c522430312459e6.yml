@@ -1,7 +1,7 @@
 _id: req_bb1d4cecbb9548fc9c522430312459e6
 type: Request
 parentId: wrk_dd624a68a77744289ebc987986b8cfb5
-modified: 1682873236600
+modified: 1682918342234
 created: 1682873220181
 url: localhost:8080/genres
 name: saveGenre
@@ -11,8 +11,8 @@ body:
   mimeType: application/json
   text: |
     {
-    	"id": "g1",
-    	"name": "genre1"
+    	"id": "g2",
+    	"name": "genre2"
     }
 parameters: []
 headers:

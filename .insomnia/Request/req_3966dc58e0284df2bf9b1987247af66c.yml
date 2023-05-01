@@ -1,7 +1,7 @@
 _id: req_3966dc58e0284df2bf9b1987247af66c
 type: Request
 parentId: wrk_dd624a68a77744289ebc987986b8cfb5
-modified: 1682872568394
+modified: 1682918332803
 created: 1682617185533
 url: localhost:8080/authors
 name: saveAuthor
@@ -11,8 +11,8 @@ body:
   mimeType: application/json
   text: |
     {
-    	"id": "a1",
-    	"name": "author1"
+    	"id": "a2",
+    	"name": "author2"
     }
 parameters: []
 headers:
