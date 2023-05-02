@@ -1,18 +1,18 @@
 _id: req_bb1d4cecbb9548fc9c522430312459e6
 type: Request
 parentId: wrk_dd624a68a77744289ebc987986b8cfb5
-modified: 1682966448678
+modified: 1683048456563
 created: 1682873220181
 url: localhost:8080/genres
 name: saveGenre
 description: ""
-method: POST
+method: PUT
 body:
   mimeType: application/json
   text: |
     {
-    	"id": "g3",
-    	"name": "Genre 3"
+    	"id": "g2",
+    	"name": "Genre 2"
     }
 parameters: []
 headers:

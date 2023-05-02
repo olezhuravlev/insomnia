@@ -1,12 +1,12 @@
 _id: req_558fa61712434bad9195664623493051
 type: Request
 parentId: wrk_dd624a68a77744289ebc987986b8cfb5
-modified: 1682963626703
+modified: 1683048474048
 created: 1682873327562
 url: localhost:8080/books
 name: saveBook
 description: ""
-method: POST
+method: PUT
 body:
   mimeType: application/json
   text: |
