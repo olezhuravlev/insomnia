@@ -1,0 +1,31 @@
+_id: req_99d5c07b5f17434c851e8312f3aaba54
+type: Request
+parentId: wrk_dd624a68a77744289ebc987986b8cfb5
+modified: 1683048486904
+created: 1682874513822
+url: localhost:8080/books
+name: saveBook2
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |
+    {
+    	"id": "b2",
+    	"title": "Book 2",
+    	"authorId": "a2",
+    	"genreId": "g2"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1682617185365.8125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
