@@ -1,22 +1,25 @@
-_id: req_c18fa961bb7744588d1dfde3cc5aaa45
+_id: req_70d6409011f04b6b98ce503ef1bf423d
 type: Request
 parentId: wrk_dd624a68a77744289ebc987986b8cfb5
-modified: 1683090297454
-created: 1683048539346
-url: localhost:8080/authors/a1
-name: getAuthorById
+modified: 1683091135218
+created: 1683091135218
+url: localhost:8080/authors
+name: saveAuthor2
 description: ""
-method: POST
+method: PUT
 body:
   mimeType: application/json
-  text: ""
+  text: |
+    {
+    	"id": "a2",
+    	"name": "Author 2"
+    }
 parameters: []
 headers:
   - name: Content-Type
-    value: application/x-ndjson
-    id: pair_55860ccc695a497b9f37b06fb96f06af
+    value: application/json
 authentication: {}
-metaSortKey: -1682617185433
+metaSortKey: -1682617185508
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

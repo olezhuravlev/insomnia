@@ -1,12 +1,12 @@
-_id: req_c18fa961bb7744588d1dfde3cc5aaa45
+_id: req_f8d851616fb54ccdbf012aa4614971e2
 type: Request
 parentId: wrk_dd624a68a77744289ebc987986b8cfb5
-modified: 1683090297454
-created: 1683048539346
-url: localhost:8080/authors/a1
-name: getAuthorById
+modified: 1683091540715
+created: 1683091320088
+url: localhost:8080/comments/bc1
+name: deleteCommentById
 description: ""
-method: POST
+method: DELETE
 body:
   mimeType: application/json
   text: ""
@@ -16,7 +16,7 @@ headers:
     value: application/x-ndjson
     id: pair_55860ccc695a497b9f37b06fb96f06af
 authentication: {}
-metaSortKey: -1682617185433
+metaSortKey: -1682617185064.25
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

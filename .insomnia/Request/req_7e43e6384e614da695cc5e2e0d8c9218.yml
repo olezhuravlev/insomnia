@@ -1,10 +1,10 @@
-_id: req_c18fa961bb7744588d1dfde3cc5aaa45
+_id: req_7e43e6384e614da695cc5e2e0d8c9218
 type: Request
 parentId: wrk_dd624a68a77744289ebc987986b8cfb5
-modified: 1683090297454
-created: 1683048539346
-url: localhost:8080/authors/a1
-name: getAuthorById
+modified: 1683091443102
+created: 1683091334937
+url: localhost:8080/comments/book/b1?get
+name: getCommentByBookId
 description: ""
 method: POST
 body:
@@ -16,7 +16,7 @@ headers:
     value: application/x-ndjson
     id: pair_55860ccc695a497b9f37b06fb96f06af
 authentication: {}
-metaSortKey: -1682617185433
+metaSortKey: -1682617185089.25
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
