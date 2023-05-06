@@ -1,25 +1,23 @@
-_id: req_c186d9aef80b4b09b7f08f5f3f6977d6
+_id: req_619e9cd823df4b568df725f260daaa89
 type: Request
-parentId: fld_007d1ac616f344129528740e066c1a57
-modified: 1683382872034
-created: 1683091158322
-url: localhost:8081/genres
-name: saveGenre2
+parentId: wrk_dd624a68a77744289ebc987986b8cfb5
+modified: 1683382959717
+created: 1683347821167
+url: localhost:8080/authors
+name: getAuthors
 description: ""
-method: PUT
+method: POST
 body:
   mimeType: application/json
-  text: |
-    {
-    	"id": "g2",
-    	"name": "Genre 2"
-    }
+  text: ""
 parameters: []
 headers:
-  - name: Content-Type
+  - id: pair_380864e600f84897b5a85ec8f315364e
+    name: Content-Type
     value: application/json
+    description: ""
 authentication: {}
-metaSortKey: -1683165090666.5
+metaSortKey: -1683347821167
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,26 +1,28 @@
-_id: req_7838306060c7404c885957f5353a7ad3
+_id: req_4963009c1cd844bda3d0045a01efacb0
 type: Request
-parentId: fld_007d1ac616f344129528740e066c1a57
-modified: 1683382914537
-created: 1683090536580
-url: localhost:8081/comments
-name: saveComment
+parentId: wrk_dd624a68a77744289ebc987986b8cfb5
+modified: 1683382998540
+created: 1683349734346
+url: localhost:8080/books
+name: saveBook
 description: ""
 method: PUT
 body:
   mimeType: application/json
-  text: |
+  text: |+
     {
-    	"id": "bc1",
-    	"bookId": "b1",
-    	"text": "Comment 1-1"
+    	"id": "b3",
+    	"title": "Book 3",
+    	"authorId": "a1",
+    	"genreId": "g2"
     }
+
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1683165090166.5
+metaSortKey: -1683347737993
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
