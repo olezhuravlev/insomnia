@@ -92,6 +92,15 @@
 								"type": "text"
 							}
 						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"user-name\": \"test-user3@test.com\",\n\t\"first-name\": \"Test 3\",\n\t\"last-name\": \"User 3\",\n\t\"email\": \"test-user3@test.com\",\n\t\"email-verified\": true,\n\t\"avatar-uri\": \"https://3.net\",\n\t\"settings\": \"{3}\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
 						"url": {
 							"raw": "http://localhost:8080/user/profile",
 							"protocol": "http",
